@@ -42,7 +42,7 @@ fail-under = 9.0
 
 [tool.pylint]
 max-line-length = 120
-disable=["C0114"]
+disable=["C0114", "C0116"]
 
 [tool.bandit]
 tests = ["B201", "B301"]
